@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    height: 100%;
+    width: 100%;
+    font-family: lato;
+    font-size: 16px;
+  }
+
+  main{
+    height: 80vh;
+    width: 100%;
+  }
+  
+  h2 {
+    padding: 1vw;
+    text-align: center;
+    font-size: 3ch;
+  }
+  
+  #descricao {
+    margin-top: 1vw;
+  }
+
+  header{
+    justify-content: space-around;
+    height: 8vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    color: white;
+  }
+  
+  /* h1 {
+    text-align: center;
+    font-size: 6ch;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  } */
+  
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    background-color: rgba(173, 0, 0, 0.781);
+    text-align: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  nav ul li a:hover {
+    padding: 0px 10px 0px 10px;
+    color: black;
+    text-decoration: solid;
+    transition: all 0.6s;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  div{
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90vw;
+    min-width: 50vw;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 2ch;
+    text-indent: 1vw;
+    margin-top: 1VW;
+  }
+  
+  figure{
+    display: flex;
+    justify-content: center;
+  }
+  
+  figure img{
+    width: 90vw;
+  }
+
+  .climaimg figure img{
+    height: 50vh;
+    width: 40vw;
+    border-radius: 10px;
+    margin-top: 5vh;
+  }
+
+  .climamain{
+    height: 150vh;
+    width: 95vw;
+    justify-content: space-between;
+  }
+
+  .climaespec{
+    margin-top: 3vh;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    border: solid rgba(200, 0, 0, 1) 5px;
+    height: 60vh;
+    width: 95vw;
+    background-color: rgba(173, 0, 0, 0.781);
+  }
+
+
+  climaespec p{
+    margin-top: 6vh;
+    text-align: justify;
+  }
+
+  footer{
+    height: 20vh;
+  }
+
+  /* Diony */
+  
+  header{
+    display: flex;
+    justify-content: center;
+  }
+  #logo{
+    margin-top: -20px;
+    width: 10vw;
+    height: 13vh;
+  }
+
+  #ruacoberta{
+    margin-top: -2vw;
+    position: absolute;
+
+  }
+  
+  #descricaoturisticoo{
+    display: flex;
+    margin-top: 3vw;
+    justify-content: center;
+  }
+
+  .imgspaginainicial {
+    width: 35vw;
+    border-radius: 15%;
+  }
+
+  #corpodoindex{
+    width: 90vw;
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+  }
+
+  #textoindex{
+    display: flex;
+    font-size: 1.5vw;
+  }
+  .descricaoindex {
+    background-color: rgb(212, 199, 199);
+    border-radius: 5%;
+  }
+
+  #h1principal {
+    font-size: 4vw;
+    display: flex;
+    text-align: center;
+    margin-top: 5vw;
+  }
+
+  #imgturistica1{
+    position: relative;
+  }
+
+  #imgturistica2{
+    position: relative;
+  }
+  
+  #imgturistica3{
+    position: relative;
+  }
+  
+  #imgturistica4{
+    position: relative;
+  }
+
+  /* Diony */
+
+  .imagemturistica{
+    width: 23vw;
+    border: 3px solid black ;
+  }
+
+  #imagensdoturistico{
+    margin-top: 2vw;
+    width: 80vw;
+    display: flex;
+
+  }
+  .contato{
+    width: fit-content;
+    margin-top: 15vh;
+    height: fit-content;
+    display: flex;
+    margin-bottom: 3vh;
+    font-size: 2vw;
+  }
+  .contato div{
+    display: grid;
+    margin-top: 1vh;
+    text-align: justify;
+    justify-content: center;
+  }
+  .contato label{
+    margin-right: 1vw;
+  }
+  .contato input{
+    border-radius: 2px;
+    border: none;
+    height: 4vh;
+    outline: solid 1px black;
+    margin-top: 1px;
+  }
+  .botoesContato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .botoesContato button{
+    background-color: bisque;
+    width: 5vw;
+    height: 2vw;
+  }
+  .bodyContato{
+    display: flex;
+    justify-content: center;
+  }
+  input{
+    height: 2vh;
+    border-radius: 5px;
+    outline: solid 1px black;
+    border: none;
+  }
